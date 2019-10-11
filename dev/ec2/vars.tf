@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 ## AWS aws_region
 variable "AWS_REGION" {
 #  default = "us-west-2"
@@ -37,4 +30,3 @@ variable "PUBLIC_KEY_PATH" {
 variable "ssh_key_pair" {
 #  default = "devops1"
 }
-
