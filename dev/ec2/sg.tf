@@ -1,11 +1,4 @@
 
-
-
-
-
-
-
-
 resource "aws_security_group" "myteam-web" {
   name        = "myteam-web"
   description = "web access 80,443"
@@ -48,4 +41,3 @@ resource "aws_security_group" "myteam-web" {
     to_port   = 0
   }
 }
-
